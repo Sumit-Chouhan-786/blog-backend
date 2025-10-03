@@ -38,4 +38,3 @@ adminSchema.methods.comparePassword = async function (enteredPassword) {
 
 
 export default mongoose.model("Admin", adminSchema);
-
